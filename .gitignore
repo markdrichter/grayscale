@@ -1,4 +1,7 @@
-bin/
+bin/Debug
+bin/Release
+bin/*vshost*
+bin/log.csv
 obj/
 _ReSharper*
 *docstates*
