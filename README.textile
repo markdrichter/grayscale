@@ -1,0 +1,15 @@
+h2. Description
+
+Converts color bitmaps into grayscale bitmaps.
+
+h2. Use
+
+grayscale [directory]
+
+Options:
+
+directory: If present indicates the directory where images to be converted are found. Converted images are placed in the same directory using a naming convention, e.g. foo.png will be called foo.gray.png after conversion.
+
+.h2 Code
+
+The source code is c# using Visual Studio 2010.

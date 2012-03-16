@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34F49B3D-709F-4F1A-8971-B122FE256DA1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>grayscale</RootNamespace>
+    <AssemblyName>grayscale</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\Big Picture.png" />
+    <Content Include="images\grid.png" />
+    <Content Include="images\icon-action.png" />
+    <Content Include="images\icon-add-child.gif" />
+    <Content Include="images\icon-add-in-next-line.gif" />
+    <Content Include="images\icon-add-medium.gif" />
+    <Content Include="images\icon-add-tag-group.gif" />
+    <Content Include="images\icon-add-tag.gif" />
+    <Content Include="images\icon-add-transition.gif" />
+    <Content Include="images\icon-add-tree.gif" />
+    <Content Include="images\icon-add-user.gif" />
+    <Content Include="images\icon-add-variable.gif" />
+    <Content Include="images\icon-add-workflow-transition.gif" />
+    <Content Include="images\icon-add.gif" />
+    <Content Include="images\icon-all-items.gif" />
+    <Content Include="images\icon-back.gif" />
+    <Content Include="images\icon-cancel.gif" />
+    <Content Include="images\icon-card-copy-to.gif" />
+    <Content Include="images\icon-delete-transition.gif" />
+    <Content Include="images\icon-delete.gif" />
+    <Content Include="images\icon-disable-auto-enroll.gif" />
+    <Content Include="images\icon-edit-password.gif" />
+    <Content Include="images\icon-edit-transition.gif" />
+    <Content Include="images\icon-edit-user.gif" />
+    <Content Include="images\icon-edit.gif" />
+    <Content Include="images\icon-email-conf-test.gif" />
+    <Content Include="images\icon-email-disabled.gif" />
+    <Content Include="images\icon-email.gif" />
+    <Content Include="images\icon-enable-auto-enroll.gif" />
+    <Content Include="images\icon-export.gif" />
+    <Content Include="images\icon-export.png" />
+    <Content Include="images\icon-forward.gif" />
+    <Content Include="images\icon-grid-off.gif" />
+    <Content Include="images\icon-grid-on.png" />
+    <Content Include="images\icon-help-new-window.png" />
+    <Content Include="images\icon-help-unselected.png" />
+    <Content Include="images\icon-hide-hidden.gif" />
+    <Content Include="images\icon-hide.gif" />
+    <Content Include="images\icon-hierarchy-disabled.gif" />
+    <Content Include="images\icon-hierarchy-off.gif" />
+    <Content Include="images\icon-hierarchy-on.png" />
+    <Content Include="images\icon-import.gif" />
+    <Content Include="images\icon-import.png" />
+    <Content Include="images\icon-list-off.gif" />
+    <Content Include="images\icon-list-off.png" />
+    <Content Include="images\icon-list-on.png" />
+    <Content Include="images\icon-lock.gif" />
+    <Content Include="images\icon-manage-users.gif" />
+    <Content Include="images\icon-preview.gif" />
+    <Content Include="images\icon-print-single-card.gif" />
+    <Content Include="images\icon-print.gif" />
+    <Content Include="images\icon-project-import - Copy.gif" />
+    <Content Include="images\icon-project-import.gif" />
+    <Content Include="images\icon-project-new - Copy.gif" />
+    <Content Include="images\icon-quick-add-unselected.gif" />
+    <Content Include="images\icon-reset-tab - Copy.gif" />
+    <Content Include="images\icon-reset-tab-all - Copy.gif" />
+    <Content Include="images\icon-reset-tab.gif" />
+    <Content Include="images\icon-revision-action - Copy.gif" />
+    <Content Include="images\icon-revision-action.gif" />
+    <Content Include="images\icon-rss - Copy.gif" />
+    <Content Include="images\icon-safe - Copy.gif" />
+    <Content Include="images\icon-safe.gif" />
+    <Content Include="images\icon-save - Copy.gif" />
+    <Content Include="images\icon-save.gif" />
+    <Content Include="images\icon-show-hidden - Copy.gif" />
+    <Content Include="images\icon-show-hidden.gif" />
+    <Content Include="images\icon-show-latest - Copy.gif" />
+    <Content Include="images\icon-show-latest.gif" />
+    <Content Include="images\icon-source - Copy.gif" />
+    <Content Include="images\icon-source.gif" />
+    <Content Include="images\icon-tab-checkbox-unselected.gif" />
+    <Content Include="images\icon-temp.gif" />
+    <Content Include="images\icon-template.gif" />
+    <Content Include="images\icon-transition.gif" />
+    <Content Include="images\icon-tree-disabled.gif" />
+    <Content Include="images\icon-tree-off.gif" />
+    <Content Include="images\icon-tree-on.png" />
+    <Content Include="images\icon-unlock.gif" />
+    <Content Include="images\icon-up.gif" />
+    <Content Include="images\icon-update.gif" />
+    <Content Include="images\icon-wiki-checkbox-unselected.gif" />
+    <Content Include="images\icon_murmur.png" />
+    <Content Include="images\icon_refresh.png" />
+    <Content Include="images\icon_refresh_hightlight.png" />
+    <Content Include="images\icon_transition.png" />
+    <Content Include="images\icon_transition_arrow.png" />
+    <Content Include="images\logo_mingle_icon.png" />
+    <Content Include="images\spinner.gif" />
+    <Content Include="images\wiki-checkbox-selected.gif" />
+    <Content Include="images\wiki-checkbox-unselected.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
